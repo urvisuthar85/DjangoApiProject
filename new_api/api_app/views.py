@@ -8,7 +8,7 @@ log = logging.getLogger(__name__)
 
 
 def index(request):
-    return HttpResponse('<h1>Welcome To First API Project </h1>')
+    return HttpResponse('Welcome To First API Project')
 
 
 def show_data(request):
